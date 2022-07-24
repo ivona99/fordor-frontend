@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+.zuco {
+    font-family: 'Rubik Moonrocks', cursive;
+    color: yellow;
+}
+
+.headerUI{
+    width: 100%;
+
+    background-color: rgb(0,18,54);
+    /*background-color: black;*/
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    color: white;
+    white-space: wrap;
+
+}
+
+.unorderedList{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+    text-decoration: none;
+    gap:50px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.logoUI{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+}
+
+@media only screen and (max-width: 750px) {
+    .headerUI{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .logoUI{
+        display:inline-block;
+        text-align:center;
+    }
+    
+}

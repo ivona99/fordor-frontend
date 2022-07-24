@@ -1,0 +1,14 @@
+.polje{
+    padding: 10px;
+}
+
+.Naslov{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.buttonMix{
+    margin-top: 1%;
+    text-align: center;
+}

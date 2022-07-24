@@ -1,0 +1,114 @@
+.postItemDiv{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 10px 20%;
+}
+
+.postItemDiv:hover{
+    cursor: pointer;
+    outline: 3px solid #2c2c2d;
+}
+
+.slikaPostItem{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+}
+
+.desnoContainer{
+    float: right;
+    margin-left: 10px;
+}
+
+.naslovPostItem{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.description{
+    margin-top: 10px;
+}
+
+.datumKreiranja{
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 1300px) {
+    .description{
+        font-size: 0.8rem;
+    }
+
+    .naslovPostItem{
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    .naslovPostItem{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 795px) {
+    .description{
+        font-size: 0.7rem;
+    }
+
+    .naslovPostItem{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        font-weight: 400;
+    }
+
+    .slikaPostItem{
+        width: 100px;
+        height: 100px;
+    }
+
+    .datumKreiranja{
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .postItemDiv{
+        margin: 5px 10%;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .postItemDiv{
+        margin: 2px 5%;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .postItemDiv{
+        margin: 2px 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .slikaPostItem{
+        width: 70px;
+        height: 70px;
+    }
+    .description{
+        height: 20px;
+        overflow: hidden;
+    }
+
+    .naslovPostItem{
+        margin-bottom: 1rem;
+    }
+}
+

@@ -1,0 +1,62 @@
+.homeContainer {
+    width: 100%;
+    height: 90%;
+    background-color: white;
+}
+
+.bijeli {
+    background-color: white;
+    height: 65%;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.bijeliLijevo {
+    width: 50%;
+    height: 100%;
+}
+
+.bijeliDesno {
+    width: 50%;
+    height: 100%;
+}
+
+.bijeliDesnoSlika {
+    float: right;
+    width: 90%;
+    border: 3px solid white;
+}
+
+.narandzasti {
+    background-color: yellow;
+    height: 35%;
+    width: 100%;
+    transform: rotate(-3deg);
+    transform-origin: bottom right;
+    margin-left: 0.4%;
+
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.opisDetaljno {
+    margin-top: 5%;
+    font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 1300px) {
+    .bijeli{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    .narandzasti{
+        display: none;
+    }
+}

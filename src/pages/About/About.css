@@ -1,0 +1,53 @@
+.about--homeContainer {
+    width: 100%;
+    height: 90%;
+    background-color: white;
+}
+
+.about--bijeli {
+    background-color: white;
+    height: 65%;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.about--bijeliLijevo {
+    width: 50%;
+    height: 100%;
+}
+
+.about--bijeliDesno {
+    width: 50%;
+    height: 100%;
+}
+
+.about--bijeliDesnoSlika {
+    float: right;
+    width: 80%;
+    border: 3px solid white;
+}
+
+.about--narandzasti {
+    /*background-color: rgb(1, 163, 241);*/
+    background-color: yellow;
+    height: 35%;
+    width: 100%;
+    transform: rotate(-3deg);
+    transform-origin: bottom right;
+    margin-left: 0.4%;
+
+}
+
+.about--title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    bottom: 5%;
+}
+
+.about--opisDetaljno {
+    margin-top: 5%;
+    font-size: 1.0rem;
+}

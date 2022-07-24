@@ -1,0 +1,61 @@
+.contact--homeContainer {
+    width: 100%;
+    height: 90%;
+    background-color: white;
+}
+
+.contact--bijeli {
+    background-color: white;
+    height: 65%;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.contact--bijeliLijevo {
+    width: 50%;
+    height: 100%;
+}
+
+.contact--bijeliDesno {
+    width: 50%;
+    height: 100%;
+}
+
+.contact--bijeliDesnoSlika {
+    float: right;
+    width: 90%;
+    border: 3px solid white;
+}
+
+.contact--narandzasti {
+    /*background-color: rgb(1, 163, 241);*/
+    background-color: yellow;
+    height: 35%;
+    width: 100%;
+    transform: rotate(-3deg);
+    transform-origin: bottom right;
+    margin-left: 0.4%;
+
+}
+
+.contact--title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    bottom: 5%;
+}
+
+.contact--opisDetaljno {
+    margin-top: 5%;
+    font-size: 1.0rem;
+}
+
+.contact--yellowWrapper {
+    width: 100%;
+}
+
+.contact--gmail {
+    background-color: yellow;
+}

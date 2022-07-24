@@ -1,0 +1,37 @@
+.postContainer {
+    background-color: white;
+    margin: 0 20%;
+}
+
+.mapContainer {
+    height: 300px;
+    width: 910px;
+    margin: 0 20%;
+}
+
+.naslov {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.slika {
+    width: 100%;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+.opis {
+    display: block;
+    margin: 10px;
+}
+
+.slikaContainer {
+    padding: 2%;
+}
+
+.slikaOpisDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
